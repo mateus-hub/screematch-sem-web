@@ -25,9 +25,7 @@ public class Episodio {
         } catch(DateTimeParseException ex) {
             this.dataLancamento = null;
         }
-
     }
-
 
     public Integer getTemporada() {
         return temporada;
